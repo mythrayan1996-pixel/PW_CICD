@@ -9,7 +9,7 @@ jobs:
     timeout-minutes: 60
     runs-on: windows-latest
     steps:
-    - name: Checout Repository
+    - name: Checkout Repository
       uses: actions/checkout@v4
 
     - name: Set up Node.js
